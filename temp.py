@@ -1,9 +1,15 @@
 
-
+"""
+this module contains functions for converting between degrees fehrenheit and degrees Celsius 
+"""
 def to_celsius (fehrenheit):
+    """
+    Accept degrees fehr.
+    Return degrees cels.
+    """
     return (fehrenheit - 32 ) * 5/9
 
-def to_fehrenheit (celsius):
+def to_fehrenheit (celsius:float) -> float:
     return celsius * 9/5 + 32
 
 
